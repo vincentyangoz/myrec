@@ -1,0 +1,184 @@
+{
+  "project": {
+    "projectSettingsVersion": "1.1",
+    "creationData": {
+      "type": "Demo",
+      "createDefaultBuildConfigs": true,
+      "projectTypeName": "com.intel.xdk.projecttype.jsapp",
+      "src": "https://edge-intel.s3.amazonaws.com/samples/production/sample-phonegap-audio/sample.zip",
+      "sourceDirectory": "www",
+      "projectGuid": "8b68f133-5256-4398-81ae-6a9a285cf047",
+      "lastModifiedDate": 1407976516784,
+      "creationDate": 1407975130345
+    },
+    "sourceDirectory": "www",
+    "cordovaPluginsDirectory": "plugins",
+    "startFile": "index.html",
+    "projectFiles": {},
+    "projectDirectories": {},
+    "libraries": [
+      {
+        "name": "Cordova",
+        "version": "2.9.0",
+        "data": {
+          "default": true
+        }
+      },
+      {
+        "name": "intelXDK",
+        "version": "4.0.0",
+        "data": {
+          "default": true
+        }
+      }
+    ],
+    "cordovaPlugins": [
+      {
+        "id": "org.apache.cordova.media",
+        "version": "0.2.8",
+        "selectedState": "Included",
+        "data": {},
+        "paramvals": {}
+      },
+      {
+        "id": "org.apache.cordova.media-capture",
+        "version": "0.2.8",
+        "selectedState": "Included",
+        "data": {},
+        "paramvals": {}
+      },
+      {
+        "id": "org.apache.cordova.device",
+        "version": "0.2.5",
+        "selectedState": "Included",
+        "data": {},
+        "paramvals": {}
+      },
+      {
+        "id": "org.apache.cordova.splashscreen",
+        "version": "0.2.5",
+        "selectedState": "Included",
+        "data": {},
+        "paramvals": {}
+      },
+      {
+        "id": "intel.xdk.device",
+        "selectedState": "Included",
+        "data": {},
+        "paramvals": {}
+      }
+    ],
+    "serviceMethods": [],
+    "buildConfigurations": {
+      "Android": {
+        "platform_": "android",
+        "name_": "Android",
+        "preferences_": {
+          "android-minSdkVersion": "10",
+          "android-targetedSdkVersion": "19",
+          "Orientation": "portrait"
+        },
+        "isActive_": true,
+        "appName_": "PhoneGapAudio",
+        "appID_": "xdk.sampe.phonegapaudio",
+        "appAccess_": "*",
+        "icons_": [],
+        "splashes_": [],
+        "iosProvs_": [],
+        "addlPermissions_": "",
+        "excludedLibraries_": "",
+        "cordovaCLIVersion_": "3.3",
+        "crosswalkVersion_": "stable",
+        "appVersion_": "0.0.1",
+        "runtime_": "Cordova 3.x",
+        "appVersionCode_": "1",
+        "appDescription_": "Use a Cordova media object to record and playback audio. Also detects if a previous recording exists."
+      },
+      "Android-Crosswalk": {
+        "platform_": "android",
+        "name_": "Android-Crosswalk",
+        "preferences_": {
+          "android-minSdkVersion": "14",
+          "android-targetedSdkVersion": "19",
+          "Orientation": "portrait"
+        },
+        "isActive_": true,
+        "appName_": "PhoneGapAudio",
+        "appID_": "xdk.sampe.phonegapaudio",
+        "appAccess_": "*",
+        "icons_": [],
+        "splashes_": [],
+        "iosProvs_": [],
+        "addlPermissions_": "",
+        "excludedLibraries_": "",
+        "cordovaCLIVersion_": "3.3",
+        "crosswalkVersion_": "stable",
+        "appVersion_": "0.0.1",
+        "runtime_": "Crosswalk with Cordova 3.x",
+        "appDescription_": "Use a Cordova media object to record and playback audio. Also detects if a previous recording exists.",
+        "appVersionCode_": "1"
+      },
+      "iOS": {
+        "platform_": "ios",
+        "name_": "iOS",
+        "preferences_": {
+          "ios-target": "5",
+          "Orientation": "portrait"
+        },
+        "isActive_": true,
+        "appName_": "PhoneGapAudio",
+        "appID_": "xdk.sampe.phonegapaudio",
+        "appAccess_": "*",
+        "icons_": [],
+        "splashes_": [],
+        "iosProvs_": [],
+        "addlPermissions_": "",
+        "excludedLibraries_": "",
+        "cordovaCLIVersion_": "3.3",
+        "crosswalkVersion_": "stable",
+        "appVersion_": "0.0.1",
+        "runtime_": "Cordova 3.x",
+        "appDescription_": "Use a Cordova media object to record and playback audio. Also detects if a previous recording exists."
+      },
+      "Windows8": {
+        "platform_": "windows8",
+        "name_": "Windows8",
+        "preferences_": {
+          "Orientation": "portrait"
+        },
+        "isActive_": true,
+        "appName_": "PhoneGapAudio",
+        "appID_": "xdk.sampe.phonegapaudio",
+        "appAccess_": "*",
+        "icons_": [],
+        "splashes_": [],
+        "iosProvs_": [],
+        "addlPermissions_": "",
+        "excludedLibraries_": "",
+        "cordovaCLIVersion_": "3.3",
+        "crosswalkVersion_": "stable",
+        "appVersion_": "0.0.0.1",
+        "runtime_": "Cordova 3.x",
+        "appDescription_": "Use a Cordova media object to record and playback audio. Also detects if a previous recording exists."
+      },
+      "WindowsPhone8": {
+        "platform_": "wp8",
+        "name_": "WindowsPhone8",
+        "preferences_": {},
+        "isActive_": true,
+        "appName_": "PhoneGapAudio",
+        "appID_": "not.yet.specified",
+        "appAccess_": "*",
+        "icons_": [],
+        "splashes_": [],
+        "iosProvs_": [],
+        "addlPermissions_": "",
+        "excludedLibraries_": "",
+        "cordovaCLIVersion_": "3.3",
+        "crosswalkVersion_": "stable",
+        "appVersion_": "1.0.0.0",
+        "runtime_": "Cordova 3.x"
+      }
+    }
+  }
+}
